@@ -1,0 +1,16 @@
+{
+  "name": "homeworkone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "process": "node-sass scss/main.scss css/main.css -w",
+    "server": "live-server"
+  },
+  "author": "Kameron Someson",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

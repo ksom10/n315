@@ -1,0 +1,31 @@
+.hero {
+    //margin-top: 12px;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,1)
+    ),
+     url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 350px;
+}
+.callout{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-right: 100px;
+    padding-top: 30px;
+
+    h1{
+        font-size: 230%;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 230%;
+        text-align: center;
+    }
+}
