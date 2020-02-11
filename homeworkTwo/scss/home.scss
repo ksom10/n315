@@ -1,0 +1,545 @@
+.hero{
+    width: 100%;
+  height: 600px;
+
+.home {
+    //margin-top: 12px;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,1)
+    ),
+     url(../images/pizza.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    //justify-content: flex-end;
+    margin-bottom: 350px;
+}
+
+
+h1 {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 50%;
+    align-items: right;
+    justify-content: center;
+    font-size: 75px;
+    color: rgb(206,138,37);
+}
+}
+
+.pizza{
+    width: 100%;
+    margin-top: 175px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 350px;
+    h1 {
+       
+        font-size: 75px;
+        color: rgb(188,39,43);
+    }
+
+    .pizza-container {
+        width: 944px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        //background-color: chocolate;
+    
+        p {
+          font-size: 30px;
+          color: white;
+          font-family: sans-serif;
+          font-weight: 400;
+          text-decoration: none;
+          margin-left: 30px;
+          margin-top: -25px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .pepperoni {
+          width: 236px;
+          height: 304px;
+          margin-top: 100px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-image: linear-gradient(
+              to right,
+              rgba(black, 0.4),
+              rgba(black, 0.4)
+            ),
+            url("../images/pepperoni.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+    
+          h1 {
+            font-size: 30px;
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-weight: 400;
+            margin-left: 15px;
+            margin-top: 25px;
+            //text-transform: uppercase;
+          }
+        }
+    
+        .cheese {
+          width: 236px;
+          height: 304px;
+          margin-top: 100px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-image: linear-gradient(
+              to right,
+              rgba(black, 0.4),
+              rgba(black, 0.4)
+            ),
+            url("../images/cheese.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+    
+          h1 {
+            font-size: 30px;
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-weight: 400;
+            margin-left: 15px;
+            margin-top: 25px;
+          }
+        }
+        .sausage {
+          width: 236px;
+          height: 304px;
+          margin-top: 100px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-image: linear-gradient(
+              to right,
+              rgba(black, 0.4),
+              rgba(black, 0.4)
+            ),
+            url("../images/sausage.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+    
+          h1 {
+            font-size: 30px;
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-weight: 400;
+            margin-left: 15px;
+            margin-top: 25px;
+          }
+          
+        }
+        .site-button {
+          padding: 10px 25px;
+          background-color: rgb(188,39,43);;
+          text-decoration: none;
+          color: white;
+          margin-left: 20px;
+          border-radius: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .mushroom {
+        width: 236px;
+        height: 304px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(
+            to right,
+            rgba(black, 0.4),
+            rgba(black, 0.4)
+          ),
+          url("../images/mushroom.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+  
+        h1 {
+          font-size: 30px;
+          color: white;
+          text-decoration: none;
+          font-family: sans-serif;
+          font-weight: 400;
+          margin-left: 15px;
+          margin-top: 25px;
+        }
+        
+      
+      .site-button {
+        padding: 10px 25px;
+        background-color: rgb(188,39,43);;
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+      .pineapple {
+        width: 236px;
+        height: 304px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(
+            to right,
+            rgba(black, 0.4),
+            rgba(black, 0.4)
+          ),
+          url("../images/pineapple.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+  
+        h1 {
+          font-size: 30px;
+          color: white;
+          text-decoration: none;
+          font-family: sans-serif;
+          font-weight: 400;
+          margin-left: 15px;
+          margin-top: 25px;
+        }}
+        .meat {
+          width: 236px;
+          height: 304px;
+          margin-top: 100px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-image: linear-gradient(
+              to right,
+              rgba(black, 0.4),
+              rgba(black, 0.4)
+            ),
+            url("../images/meat.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+    
+          h1 {
+            font-size: 30px;
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-weight: 400;
+            margin-left: 15px;
+            margin-top: 25px;
+          }
+        
+    } 
+
+}
+
+
+.wings{
+    width: 100%;
+    margin-top: 175px;
+    height: 600px;
+    background-color: rgb(206,138,37);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    h1 {
+       
+        font-size: 75px;
+        color: rgb(188,39,43);
+    }
+
+    .wings-container {
+        width: 944px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        //background-color: chocolate;
+    
+        p {
+          font-size: 30px;
+          color: white;
+          font-family: sans-serif;
+          font-weight: 400;
+          text-decoration: none;
+          margin-left: 30px;
+          margin-top: -25px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .bbq {
+          width: 236px;
+          height: 304px;
+          margin-top: 100px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-image: linear-gradient(
+              to right,
+              rgba(black, 0.4),
+              rgba(black, 0.4)
+            ),
+            url("../images/bbq.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+    
+          h1 {
+            font-size: 30px;
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-weight: 400;
+            margin-left: 15px;
+            margin-top: 25px;
+            //text-transform: uppercase;
+          }
+        }
+    
+        .hot {
+          width: 236px;
+          height: 304px;
+          margin-top: 100px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-image: linear-gradient(
+              to right,
+              rgba(black, 0.4),
+              rgba(black, 0.4)
+            ),
+            url("../images/hot.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+    
+          h1 {
+            font-size: 30px;
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-weight: 400;
+            margin-left: 15px;
+            margin-top: 25px;
+          }
+        }
+        .sweet {
+          width: 236px;
+          height: 304px;
+          margin-top: 100px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-image: linear-gradient(
+              to right,
+              rgba(black, 0.4),
+              rgba(black, 0.4)
+            ),
+            url("../images/honey-garlic-chicken-wings-1.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+    
+          h1 {
+            font-size: 30px;
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-weight: 400;
+            margin-left: 15px;
+            margin-top: 25px;
+          }
+          
+        }
+        .site-button {
+          padding: 10px 25px;
+          background-color: rgb(188,39,43);;
+          text-decoration: none;
+          color: white;
+          margin-left: 20px;
+          border-radius: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }}}
+
+        .meals{
+            width: 100%;
+            margin-top: 5px;
+            height: 600px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 100px;
+            h1 {
+               
+                font-size: 75px;
+                color: rgb(188,39,43);
+            }
+        
+            .meals-container {
+                width: 944px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                //background-color: chocolate;
+            
+                p {
+                  font-size: 30px;
+                  color: white;
+                  font-family: sans-serif;
+                  font-weight: 400;
+                  text-decoration: none;
+                  margin-left: 30px;
+                  margin-top: -25px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                }
+                .one {
+                  width: 236px;
+                  height: 304px;
+                  margin-top: 100px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  background-image: linear-gradient(
+                      to right,
+                      rgba(black, 0.4),
+                      rgba(black, 0.4)
+                    ),
+                    url("../images/one.png");
+                  background-position: center;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+            
+                  h1 {
+                    font-size: 30px;
+                    color: white;
+                    text-decoration: none;
+                    font-family: sans-serif;
+                    font-weight: 400;
+                    margin-left: 15px;
+                    margin-top: 25px;
+                    //text-transform: uppercase;
+                  }
+                }
+            
+                .two {
+                  width: 236px;
+                  height: 304px;
+                  margin-top: 100px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  background-image: linear-gradient(
+                      to right,
+                      rgba(black, 0.4),
+                      rgba(black, 0.4)
+                    ),
+                    url("../images/two.jpg");
+                  background-position: center;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+            
+                  h1 {
+                    font-size: 30px;
+                    color: white;
+                    text-decoration: none;
+                    font-family: sans-serif;
+                    font-weight: 400;
+                    margin-left: 15px;
+                    margin-top: 25px;
+                  }
+                }
+                .three {
+                  width: 236px;
+                  height: 304px;
+                  margin-top: 100px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  background-image: linear-gradient(
+                      to right,
+                      rgba(black, 0.4),
+                      rgba(black, 0.4)
+                    ),
+                    url("../images/three.jpg");
+                  background-position: center;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+            
+                  h1 {
+                    font-size: 30px;
+                    color: white;
+                    text-decoration: none;
+                    font-family: sans-serif;
+                    font-weight: 400;
+                    margin-left: 15px;
+                    margin-top: 25px;
+                  }
+                  
+                }
+                .site-button {
+                  padding: 10px 25px;
+                  background-color: rgb(188,39,43);;
+                  text-decoration: none;
+                  color: white;
+                  margin-left: 20px;
+                  border-radius: 20px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                }}}
+        
+               

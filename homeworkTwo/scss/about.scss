@@ -1,0 +1,166 @@
+.heroTwo{
+  width: 100%;
+height: 600px;
+
+.homeTwo {
+  //margin-top: 12px;
+  height: 100%;
+  background-image: 
+   url(../images/homeTwo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  //justify-content: flex-end;
+  margin-bottom: 350px;
+}
+
+
+h1 {
+  display: flex;
+  margin-top: 50px;
+  padding-left: 50%;
+  align-items: right;
+  justify-content: center;
+  font-size: 125px;
+  color: white;
+}
+}
+
+
+
+
+
+.owner{
+    width: 100%;
+  height: 600px;
+
+  .owner-content{
+    margin-top: 30px;
+    margin: 50px;
+    width: 80%;
+    height: 400px;
+    //background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .ownerAbout{
+      width: 600px;
+      height: 100%;
+      //background-color: rebeccapurple;
+
+      h1{
+        font-size: 45px;
+      }
+
+      p{
+        font-size: 24px;
+      }
+    }
+
+    .ownerPic{
+      height: 100%;
+      width: 350px;
+    background-image:
+     url(../images/owner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    }
+
+
+  }
+}
+
+.goal{
+  width: 100%;
+height: 400px;
+background-color:  rgb(206,138,37);
+
+.goal-content{
+  margin-top: 30px;
+  margin: 50px;
+  width: 80%;
+  height: 400px;
+  //background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .goalAbout{
+    width: 600px;
+    height: 200px;
+    //background-color: rebeccapurple;
+
+    h1{
+      font-size: 45px;
+    }
+
+    p{
+      font-size: 30px;
+    }
+  }
+
+  .goalPic{
+    height: 200px;
+    width: 350px;
+  background-image:
+   url(../images/goal.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  }
+
+
+}
+}
+
+.how{
+  width: 100%;
+height: 600px;
+
+.how-content{
+  margin-top: 30px;
+  margin: 50px;
+  width: 80%;
+  height: 400px;
+  //background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .howAbout{
+    width: 600px;
+    height: 100%;
+    //background-color: rebeccapurple;
+
+    h1{
+      font-size: 45px;
+    }
+
+    p{
+      font-size: 24px;
+    }
+  }
+
+  .howPic{
+    height: 100%;
+    width: 350px;
+  background-image:
+   url(../images/how.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  }
+
+
+}
+}

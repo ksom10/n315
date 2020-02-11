@@ -1,0 +1,579 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 15px; }
+
+nav {
+  width: 100%;
+  height: 92px;
+  background-color: #bc272b;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly; }
+  nav a {
+    color: white;
+    font-size: 45px;
+    text-decoration: none; }
+  nav .social img {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 50px; }
+
+.hero {
+  width: 100%;
+  height: 600px; }
+  .hero .home {
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), black), url(../images/pizza.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 350px; }
+  .hero h1 {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 50%;
+    align-items: right;
+    justify-content: center;
+    font-size: 75px;
+    color: #ce8a25; }
+
+.pizza {
+  width: 100%;
+  margin-top: 175px;
+  height: 600px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 350px; }
+  .pizza h1 {
+    font-size: 75px;
+    color: #bc272b; }
+  .pizza .pizza-container {
+    width: 944px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .pizza .pizza-container p {
+      font-size: 30px;
+      color: white;
+      font-family: sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+      margin-left: 30px;
+      margin-top: -25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    .pizza .pizza-container .pepperoni {
+      width: 236px;
+      height: 304px;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/pepperoni.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .pizza .pizza-container .pepperoni h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+    .pizza .pizza-container .cheese {
+      width: 236px;
+      height: 304px;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/cheese.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .pizza .pizza-container .cheese h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+    .pizza .pizza-container .sausage {
+      width: 236px;
+      height: 304px;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/sausage.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .pizza .pizza-container .sausage h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+    .pizza .pizza-container .site-button {
+      padding: 10px 25px;
+      background-color: #bc272b;
+      text-decoration: none;
+      color: white;
+      margin-left: 20px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+  .pizza .mushroom {
+    width: 236px;
+    height: 304px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/mushroom.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .pizza .mushroom h1 {
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-weight: 400;
+      margin-left: 15px;
+      margin-top: 25px; }
+    .pizza .mushroom .site-button {
+      padding: 10px 25px;
+      background-color: #bc272b;
+      text-decoration: none;
+      color: white;
+      margin-left: 20px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+  .pizza .pineapple {
+    width: 236px;
+    height: 304px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/pineapple.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .pizza .pineapple h1 {
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-weight: 400;
+      margin-left: 15px;
+      margin-top: 25px; }
+  .pizza .meat {
+    width: 236px;
+    height: 304px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/meat.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .pizza .meat h1 {
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-weight: 400;
+      margin-left: 15px;
+      margin-top: 25px; }
+
+.wings {
+  width: 100%;
+  margin-top: 175px;
+  height: 600px;
+  background-color: #ce8a25;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px; }
+  .wings h1 {
+    font-size: 75px;
+    color: #bc272b; }
+  .wings .wings-container {
+    width: 944px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .wings .wings-container p {
+      font-size: 30px;
+      color: white;
+      font-family: sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+      margin-left: 30px;
+      margin-top: -25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    .wings .wings-container .bbq {
+      width: 236px;
+      height: 304px;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/bbq.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .wings .wings-container .bbq h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+    .wings .wings-container .hot {
+      width: 236px;
+      height: 304px;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/hot.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .wings .wings-container .hot h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+    .wings .wings-container .sweet {
+      width: 236px;
+      height: 304px;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/honey-garlic-chicken-wings-1.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .wings .wings-container .sweet h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+    .wings .wings-container .site-button {
+      padding: 10px 25px;
+      background-color: #bc272b;
+      text-decoration: none;
+      color: white;
+      margin-left: 20px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+
+.meals {
+  width: 100%;
+  margin-top: 5px;
+  height: 600px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px; }
+  .meals h1 {
+    font-size: 75px;
+    color: #bc272b; }
+  .meals .meals-container {
+    width: 944px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .meals .meals-container p {
+      font-size: 30px;
+      color: white;
+      font-family: sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+      margin-left: 30px;
+      margin-top: -25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    .meals .meals-container .one {
+      width: 236px;
+      height: 304px;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/one.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .meals .meals-container .one h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+    .meals .meals-container .two {
+      width: 236px;
+      height: 304px;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/two.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .meals .meals-container .two h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+    .meals .meals-container .three {
+      width: 236px;
+      height: 304px;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/three.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .meals .meals-container .three h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+    .meals .meals-container .site-button {
+      padding: 10px 25px;
+      background-color: #bc272b;
+      text-decoration: none;
+      color: white;
+      margin-left: 20px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+
+.heroTwo {
+  width: 100%;
+  height: 600px; }
+  .heroTwo .homeTwo {
+    height: 100%;
+    background-image: url(../images/homeTwo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 350px; }
+  .heroTwo h1 {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 50%;
+    align-items: right;
+    justify-content: center;
+    font-size: 125px;
+    color: white; }
+
+.owner {
+  width: 100%;
+  height: 600px; }
+  .owner .owner-content {
+    margin-top: 30px;
+    margin: 50px;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .owner .owner-content .ownerAbout {
+      width: 600px;
+      height: 100%; }
+      .owner .owner-content .ownerAbout h1 {
+        font-size: 45px; }
+      .owner .owner-content .ownerAbout p {
+        font-size: 24px; }
+    .owner .owner-content .ownerPic {
+      height: 100%;
+      width: 350px;
+      background-image: url(../images/owner.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      align-items: center; }
+
+.goal {
+  width: 100%;
+  height: 400px;
+  background-color: #ce8a25; }
+  .goal .goal-content {
+    margin-top: 30px;
+    margin: 50px;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .goal .goal-content .goalAbout {
+      width: 600px;
+      height: 200px; }
+      .goal .goal-content .goalAbout h1 {
+        font-size: 45px; }
+      .goal .goal-content .goalAbout p {
+        font-size: 30px; }
+    .goal .goal-content .goalPic {
+      height: 200px;
+      width: 350px;
+      background-image: url(../images/goal.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      align-items: center; }
+
+.how {
+  width: 100%;
+  height: 600px; }
+  .how .how-content {
+    margin-top: 30px;
+    margin: 50px;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .how .how-content .howAbout {
+      width: 600px;
+      height: 100%; }
+      .how .how-content .howAbout h1 {
+        font-size: 45px; }
+      .how .how-content .howAbout p {
+        font-size: 24px; }
+    .how .how-content .howPic {
+      height: 100%;
+      width: 350px;
+      background-image: url(../images/how.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      align-items: center; }
+
+.hero-footer {
+  width: 100%;
+  height: 110px;
+  background-color: #bc272b; }
+  .hero-footer .footer {
+    height: 100%;
+    width: 956px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+    .hero-footer .footer h1 {
+      font-size: 40px; }
+    .hero-footer .footer .socialTwo {
+      font-size: 22px;
+      width: 45px;
+      height: 45px;
+      color: white;
+      display: flex; }
+    .hero-footer .footer .social img {
+      width: 25px;
+      margin-left: 10px;
+      margin-right: 10px; }
+    .hero-footer .footer span {
+      font-size: 12px;
+      font-weight: 200;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      color: white; }
+    .hero-footer .footer p {
+      font-size: 12px;
+      width: 800px;
+      text-align: center;
+      font-family: sans-serif;
+      color: white;
+      margin-right: 250px;
+      display: flex;
+      flex-direction: column; }
