@@ -577,3 +577,228 @@ nav {
       margin-right: 250px;
       display: flex;
       flex-direction: column; }
+
+.heroThree {
+  width: 100%;
+  height: 600px; }
+  .heroThree .homeThree {
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), black), url(../images/homeThree.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center; }
+  .heroThree h1 {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 50%;
+    align-items: right;
+    justify-content: center;
+    font-size: 125px;
+    color: #ce8a25; }
+
+.contact {
+  width: 100%;
+  height: 600px;
+  background-color: #f7f7f7; }
+  .contact .contact-content {
+    margin-top: 30px;
+    margin: 20px;
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; }
+    .contact .contact-content .contactAbout {
+      width: 600px;
+      height: 100%; }
+      .contact .contact-content .contactAbout h1 {
+        font-size: 45px; }
+      .contact .contact-content .contactAbout p {
+        font-size: 35px; }
+      .contact .contact-content .contactAbout .site-buttonTwo {
+        padding: 10px 25px;
+        background-color: #bc272b;
+        text-decoration: none;
+        color: white;
+        border-radius: 20px; }
+    .contact .contact-content .contactPic {
+      height: 100%;
+      width: 650px;
+      background-image: url(../images/contact.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: flex; }
+
+.employ {
+  width: 100%;
+  height: 400px;
+  background-color: #ce8a25; }
+  .employ .employ-content {
+    margin-top: 30px;
+    margin: 50px;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .employ .employ-content .site-buttonTwo {
+      padding: 10px 25px;
+      background-color: #bc272b;
+      text-decoration: none;
+      color: white;
+      border-radius: 20px; }
+    .employ .employ-content .employAbout {
+      width: 600px;
+      height: 200px; }
+      .employ .employ-content .employAbout h1 {
+        font-size: 45px; }
+      .employ .employ-content .employAbout p {
+        font-size: 30px; }
+    .employ .employ-content .employPic {
+      height: 200px;
+      width: 350px;
+      background-image: url(../images/employ.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      align-items: center; }
+
+.fran {
+  width: 100%;
+  height: 600px; }
+  .fran .fran-content {
+    margin-top: 30px;
+    margin: 50px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .fran .fran-content .franAbout {
+      width: 400px;
+      height: 100%; }
+      .fran .fran-content .franAbout .booking {
+        margin: 0 auto;
+        margin-bottom: 360px; }
+        .fran .fran-content .franAbout .booking .booking-container {
+          background-color: red;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center; }
+          .fran .fran-content .franAbout .booking .booking-container input {
+            height: 58px;
+            width: 200px;
+            margin: 20px; }
+          .fran .fran-content .franAbout .booking .booking-container .email {
+            width: 200px; }
+          .fran .fran-content .franAbout .booking .booking-container .hotel {
+            width: 200px; }
+        .fran .fran-content .franAbout .booking .check-in {
+          margin-top: 20px;
+          display: flex; }
+          .fran .fran-content .franAbout .booking .check-in input {
+            height: 58px;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; }
+          .fran .fran-content .franAbout .booking .check-in p {
+            font-size: 18px;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 20px;
+            padding-right: 50px; }
+        .fran .fran-content .franAbout .booking .check-out {
+          margin-top: 20px;
+          display: flex; }
+          .fran .fran-content .franAbout .booking .check-out input {
+            height: 58px;
+            width: 804px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; }
+          .fran .fran-content .franAbout .booking .check-out p {
+            font-size: 18px;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 20px;
+            padding-right: 38px; }
+        .fran .fran-content .franAbout .booking .age {
+          margin-top: 20px;
+          display: flex;
+          justify-content: space-between; }
+          .fran .fran-content .franAbout .booking .age input {
+            height: 58px;
+            width: 103px;
+            padding-left: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between; }
+          .fran .fran-content .franAbout .booking .age p {
+            font-size: 18px;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 20px;
+            padding-right: 10px; }
+        .fran .fran-content .franAbout .booking .textbox {
+          margin-top: 20px; }
+          .fran .fran-content .franAbout .booking .textbox input {
+            height: 192px;
+            width: 944px;
+            padding-left: 10px; }
+          .fran .fran-content .franAbout .booking .textbox p {
+            font-size: 18px;
+            font-family: sans-serif;
+            position: relative;
+            margin-left: 20px;
+            padding-right: 10px; }
+        .fran .fran-content .franAbout .booking .site-button {
+          padding: 10px 60px;
+          background-color: blue;
+          text-decoration: none;
+          color: white;
+          border-radius: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
+        .fran .fran-content .franAbout .booking h1 {
+          font-size: 35px; }
+        .fran .fran-content .franAbout .booking p {
+          font-size: 24px; }
+      .fran .fran-content .franAbout .franPic {
+        height: 100%;
+        margin-left: 55px;
+        width: 350px;
+        background-image: url(../images/fran.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center; }
+      .fran .fran-content .franAbout .site-buttonTwo {
+        padding: 45px 35px;
+        background-color: #bc272b;
+        text-decoration: none;
+        margin-left: -25px;
+        color: white;
+        margin-top: -25px;
+        border-radius: 20px; }
